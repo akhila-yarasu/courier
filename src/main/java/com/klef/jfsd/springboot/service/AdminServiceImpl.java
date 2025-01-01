@@ -1,16 +1,15 @@
 package com.klef.jfsd.springboot.service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.klef.jfsd.springboot.model.Admin;
 import com.klef.jfsd.springboot.model.BranchManager;
 import com.klef.jfsd.springboot.model.Customer;
-import com.klef.jfsd.springboot.repository.AdminRepository;
-import com.klef.jfsd.springboot.repository.BranchManagerRepository;
-import com.klef.jfsd.springboot.repository.CustomerRepository;
+import com.klef.jfsd.springboot.repositroy.AdminRepository;
+import com.klef.jfsd.springboot.repositroy.BranchManagerRepository;
+import com.klef.jfsd.springboot.repositroy.CustomerRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class AdminServiceImpl implements AdminService

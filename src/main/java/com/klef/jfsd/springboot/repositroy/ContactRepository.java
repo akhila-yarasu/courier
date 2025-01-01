@@ -1,4 +1,4 @@
-package com.klef.jfsd.springboot.repository;
+package com.klef.jfsd.springboot.repositroy;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

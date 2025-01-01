@@ -1,14 +1,13 @@
 package com.klef.jfsd.springboot.service;
 
-import java.util.List;
-
+import com.klef.jfsd.springboot.model.BranchManager;
+import com.klef.jfsd.springboot.model.Order;
+import com.klef.jfsd.springboot.repositroy.BranchManagerRepository;
+import com.klef.jfsd.springboot.repositroy.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.klef.jfsd.springboot.model.BranchManager;
-import com.klef.jfsd.springboot.model.Order;
-import com.klef.jfsd.springboot.repository.BranchManagerRepository;
-import com.klef.jfsd.springboot.repository.OrderRepository;
+import java.util.List;
 
 @Service
 public class BranchManagerServiceImpl implements BranchManagerService

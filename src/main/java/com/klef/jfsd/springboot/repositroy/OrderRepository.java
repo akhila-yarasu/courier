@@ -1,4 +1,4 @@
-package com.klef.jfsd.springboot.repository;
+package com.klef.jfsd.springboot.repositroy;
 
 import java.util.List;
 

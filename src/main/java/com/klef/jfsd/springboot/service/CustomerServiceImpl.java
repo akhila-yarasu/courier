@@ -1,16 +1,15 @@
 package com.klef.jfsd.springboot.service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.klef.jfsd.springboot.model.Contact;
 import com.klef.jfsd.springboot.model.Customer;
 import com.klef.jfsd.springboot.model.Order;
-import com.klef.jfsd.springboot.repository.ContactRepository;
-import com.klef.jfsd.springboot.repository.CustomerRepository;
-import com.klef.jfsd.springboot.repository.OrderRepository;
+import com.klef.jfsd.springboot.repositroy.ContactRepository;
+import com.klef.jfsd.springboot.repositroy.CustomerRepository;
+import com.klef.jfsd.springboot.repositroy.OrderRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class CustomerServiceImpl implements CustomerService

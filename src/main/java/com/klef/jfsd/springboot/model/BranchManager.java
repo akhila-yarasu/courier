@@ -1,11 +1,8 @@
-package main.java.com.klef.jfsd.springboot.model;
+package com.klef.jfsd.springboot.model;
 
 import java.sql.Blob;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "branchmanager_table")
