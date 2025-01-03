@@ -47,5 +47,5 @@ jobs:
       run: docker build -t rushwanthd/new_courier_image:latest . 
 
     - name: Push the Docker_Image to Docker_Hub
-      run: docker push rushwanthd/new_courier_image:latest
+      run: docker push rushwanthd/new_courier_image:latest 
       
